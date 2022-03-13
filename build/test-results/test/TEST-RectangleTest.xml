@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RectangleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-13T12:00:25" hostname="sudhas-MacBook-Pro.local" time="0.022">
+<testsuite name="RectangleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-13T12:12:29" hostname="sudhas-MacBook-Pro.local" time="0.023">
   <properties/>
-  <testcase name="areaIfHeight3Point5AndWidth2Pont5Is9Point45()" classname="RectangleTest" time="0.019"/>
-  <testcase name="areaIfHeight3AndWidth4Is12()" classname="RectangleTest" time="0.001"/>
+  <testcase name="areaOfRectangleIfHeight3AndWidth4Is12()" classname="RectangleTest" time="0.018"/>
+  <testcase name="areaOfRectangleIfHeight3Point5AndWidth2Pont5Is9Point45()" classname="RectangleTest" time="0.001"/>
+  <testcase name="perimeterOfRectangleWithHeight2AndWidth4Is12()" classname="RectangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

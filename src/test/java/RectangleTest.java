@@ -22,7 +22,14 @@ public class RectangleTest {
         Assertions.assertEquals(13.2, perimeter);
     }
 
+    @Test
+    void areaOfSquareIfHeight3Point5AndWidth3Pont5Is102Point25() {
+        Rectangle square = Rectangle.createSquare(3.5);
 
+        double area = square.area();
+
+        Assertions.assertEquals(12.25, area);
+    }
 }
 
 

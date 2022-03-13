@@ -3,14 +3,6 @@ import org.junit.jupiter.api.Test;
 
 
 public class RectangleTest {
-    @Test
-    void areaOfRectangleIfHeight3AndWidth4Is12() {
-        Rectangle rectangle = Rectangle.createRectangle(3, 4);
-
-        double area = rectangle.area();
-
-        Assertions.assertEquals(12.0, area);
-    }
 
     @Test
     void areaOfRectangleIfHeight3Point5AndWidth2Pont5Is9Point45() {
@@ -22,12 +14,12 @@ public class RectangleTest {
     }
 
     @Test
-    void perimeterOfRectangleWithHeight2AndWidth4Is12() {
-        Rectangle rectangle = Rectangle.createRectangle(2, 4);
+    void perimeterOfRectangleWithHeight2Point5AndWidth4Point1Is13Point2() {
+        Rectangle rectangle = Rectangle.createRectangle(2.5, 4.1);
 
         double perimeter = rectangle.perimeter();
 
-        Assertions.assertEquals(12, perimeter);
+        Assertions.assertEquals(13.2, perimeter);
     }
 
 

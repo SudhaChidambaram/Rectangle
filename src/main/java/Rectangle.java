@@ -6,11 +6,11 @@ public class Rectangle{
             this.height = height;
             this.width = width;
         }
-        public Rectangle createSquare(float side)
+        public static Rectangle createSquare(double side)
         {
             return new Rectangle(side,side);
         }
-        public Rectangle createRectangle(float length, float width)
+        public static Rectangle createRectangle(double length, double width)
         {
             return new Rectangle(length,width);
         }
@@ -19,8 +19,8 @@ public class Rectangle{
             return height*width;
         }
 
-        public float perimeter(){
-            return (float) (2*(height+width));
+        public double perimeter(){
+            return 2*(height+width);
         }
     }
 
